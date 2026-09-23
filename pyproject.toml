@@ -1,0 +1,19 @@
+[project]
+name = "muscle-activation-control"
+version = "0.1.0"
+description = "Non-smooth equilibria in Hill-type muscle models and their consequence for linearization-based control (single elbow joint, brachialis, optional triceps antagonist)."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "sympy",
+    "cvxpy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+abstract = ["python-docx"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

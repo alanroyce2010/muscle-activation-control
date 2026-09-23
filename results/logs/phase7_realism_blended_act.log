@@ -1,0 +1,20 @@
+/home/abhiyaan-cu/.local/lib/python3.12/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+20 closed-loop runs
+=== rate ===
+  blended_act 0.005                  up ovs  0.392  settle  0.20  dn ovs  0.405  sin RMS  0.168 +/- 0.000  branch changes    6.0  diverged 0/1
+  blended_act 0.01                   up ovs  0.423  settle  0.21  dn ovs  0.479  sin RMS  0.169 +/- 0.000  branch changes    6.0  diverged 0/1
+  blended_act 0.02                   up ovs  0.483  settle  0.22  dn ovs  0.632  sin RMS  0.172 +/- 0.000  branch changes    6.0  diverged 0/1
+  blended_act 0.04                   up ovs  0.640  settle  0.26  dn ovs  1.098  sin RMS  0.194 +/- 0.000  branch changes    6.0  diverged 0/1
+=== noise ===
+  blended_act 0.0                    up ovs  0.500  settle  0.17  dn ovs  0.642  sin RMS  0.161 +/- 0.000  branch changes    8.0  diverged 0/1
+  blended_act 0.05                   up ovs  0.565  settle  0.27  dn ovs  0.678  sin RMS  0.179 +/- 0.011  branch changes   70.6  diverged 0/5
+  blended_act 0.2                    up ovs  0.897  settle  0.71  dn ovs  0.722  sin RMS  0.428 +/- 0.017  branch changes  155.4  diverged 0/5
+=== mismatch ===
+  blended_act old-adult plant        up ovs  0.559  settle  0.23  dn ovs  0.455  sin RMS  0.183 +/- 0.000  branch changes    6.0  diverged 0/1
+  blended_act tau x0.75              up ovs  0.234  settle  0.16  dn ovs  0.413  sin RMS  0.157 +/- 0.000  branch changes    6.0  diverged 0/1
+  blended_act tau x1.25              up ovs  0.599  settle  0.23  dn ovs  0.544  sin RMS  0.190 +/- 0.000  branch changes    6.0  diverged 0/1
+=== delay ===
+  blended_act 2                      up ovs  0.865  settle  0.21  dn ovs  1.688  sin RMS  0.229 +/- 0.000  branch changes   14.0  diverged 0/1
+  blended_act 5                      up ovs    nan  settle   nan  dn ovs    nan  sin RMS    nan +/-   nan  branch changes    nan  diverged 1/1
+ALLDONE

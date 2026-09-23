@@ -1,0 +1,47 @@
+/home/abhiyaan-cu/.local/lib/python3.12/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+35 closed-loop runs
+=== delay_comp ===
+  delay 20 ms, nominal
+    fixed_naive    up ovs  0.072  dn ovs  0.000  sin RMS  0.200  branch changes    0
+    blended        up ovs  0.654  dn ovs  0.145  sin RMS  0.196  branch changes    0
+    tracking       up ovs  0.081  dn ovs  0.374  sin RMS  0.153  branch changes   16
+    current_state  up ovs  0.073  dn ovs  0.016  sin RMS  0.149  branch changes   20
+    blended_act    up ovs  0.423  dn ovs  0.479  sin RMS  0.169  branch changes    6
+  delay 20 ms, tau x1.25
+    fixed_naive    up ovs  0.141  dn ovs  0.000  sin RMS  0.202  branch changes    0
+    blended        up ovs  0.842  dn ovs  0.223  sin RMS  0.233  branch changes    0
+    tracking       up ovs  0.163  dn ovs  0.340  sin RMS  0.153  branch changes   20
+    current_state  up ovs  0.153  dn ovs  0.028  sin RMS  0.149  branch changes   18
+    blended_act    up ovs  0.596  dn ovs  0.580  sin RMS  0.190  branch changes    6
+  delay 50 ms, nominal
+    fixed_naive    up ovs  0.072  dn ovs  0.000  sin RMS  0.200  branch changes    0
+    blended        up ovs  0.654  dn ovs  0.145  sin RMS  0.196  branch changes    0
+    tracking       up ovs  0.081  dn ovs  0.374  sin RMS  0.153  branch changes   16
+    current_state  up ovs  0.073  dn ovs  0.016  sin RMS  0.149  branch changes   20
+    blended_act    up ovs  0.423  dn ovs  0.479  sin RMS  0.169  branch changes    6
+  delay 50 ms, tau x1.25
+    fixed_naive    up ovs  0.182  dn ovs  0.000  sin RMS  0.205  branch changes    0
+    blended        up ovs  0.866  dn ovs  0.276  sin RMS  0.242  branch changes    0
+    tracking       up ovs  0.210  dn ovs  0.440  sin RMS  0.156  branch changes   21
+    current_state  up ovs  0.200  dn ovs  0.039  sin RMS  0.152  branch changes   16
+    blended_act    up ovs  0.629  dn ovs  0.613  sin RMS  0.197  branch changes    6
+=== weights ===
+  R x0.25
+    fixed_naive    up ovs  0.071  dn ovs  0.000  sin RMS  0.163  branch changes    0
+    blended        up ovs  0.684  dn ovs  0.000  sin RMS  0.174  branch changes    0
+    tracking       up ovs  0.077  dn ovs  0.234  sin RMS  0.137  branch changes   26
+    current_state  up ovs  0.063  dn ovs  0.007  sin RMS  0.133  branch changes   27
+    blended_act    up ovs  0.456  dn ovs  0.283  sin RMS  0.152  branch changes    6
+  R x4
+    fixed_naive    up ovs  0.060  dn ovs  0.000  sin RMS  0.305  branch changes    0
+    blended        up ovs  0.527  dn ovs  0.103  sin RMS  0.208  branch changes    0
+    tracking       up ovs  0.058  dn ovs  0.416  sin RMS  0.182  branch changes   18
+    current_state  up ovs  0.051  dn ovs  0.000  sin RMS  0.198  branch changes   21
+    blended_act    up ovs  0.324  dn ovs  0.406  sin RMS  0.177  branch changes    6
+  q_thetadot x20
+    fixed_naive    up ovs  0.000  dn ovs  0.000  sin RMS  0.537  branch changes    0
+    blended        up ovs  0.000  dn ovs  0.000  sin RMS  0.337  branch changes    0
+    tracking       up ovs  0.000  dn ovs  0.000  sin RMS  0.374  branch changes   18
+    current_state  up ovs  0.000  dn ovs  0.000  sin RMS  0.420  branch changes   20
+    blended_act    up ovs  0.000  dn ovs  0.000  sin RMS  0.370  branch changes    4

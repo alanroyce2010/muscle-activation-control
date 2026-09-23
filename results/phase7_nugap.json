@@ -1,0 +1,144 @@
+{
+ "nugap": {
+  "activ/short|activ/lengt": {
+   "delta": 0.061708602833454224,
+   "winding_ok": true
+  },
+  "activ/short|deact/short": {
+   "delta": 0.7201634721725864,
+   "winding_ok": true
+  },
+  "activ/short|deact/lengt": {
+   "delta": 0.7133641069024382,
+   "winding_ok": true
+  },
+  "activ/short|blended": {
+   "delta": 0.24079182816020642,
+   "winding_ok": true
+  },
+  "activ/lengt|activ/short": {
+   "delta": 0.061708602833454224,
+   "winding_ok": true
+  },
+  "activ/lengt|deact/short": {
+   "delta": 0.7288825436676301,
+   "winding_ok": true
+  },
+  "activ/lengt|deact/lengt": {
+   "delta": 0.7194211049907179,
+   "winding_ok": true
+  },
+  "activ/lengt|blended": {
+   "delta": 0.25249405183440315,
+   "winding_ok": true
+  },
+  "deact/short|activ/short": {
+   "delta": 0.7201634721725864,
+   "winding_ok": true
+  },
+  "deact/short|activ/lengt": {
+   "delta": 0.7288825436676301,
+   "winding_ok": true
+  },
+  "deact/short|deact/lengt": {
+   "delta": 0.11608038561758532,
+   "winding_ok": true
+  },
+  "deact/short|blended": {
+   "delta": 0.594293758048154,
+   "winding_ok": true
+  },
+  "deact/lengt|activ/short": {
+   "delta": 0.7133641069024382,
+   "winding_ok": true
+  },
+  "deact/lengt|activ/lengt": {
+   "delta": 0.7194211049907179,
+   "winding_ok": true
+  },
+  "deact/lengt|deact/short": {
+   "delta": 0.11608038561758532,
+   "winding_ok": true
+  },
+  "deact/lengt|blended": {
+   "delta": 0.5874022073798005,
+   "winding_ok": true
+  },
+  "blended|activ/short": {
+   "delta": 0.24079182816020642,
+   "winding_ok": true
+  },
+  "blended|activ/lengt": {
+   "delta": 0.25249405183440315,
+   "winding_ok": true
+  },
+  "blended|deact/short": {
+   "delta": 0.594293758048154,
+   "winding_ok": true
+  },
+  "blended|deact/lengt": {
+   "delta": 0.5874022073798005,
+   "winding_ok": true
+  }
+ },
+ "margin": {
+  "activ/short": 0.05980860321428889,
+  "activ/lengt": 0.06766125674468682,
+  "deact/short": 0.0634010912618509,
+  "deact/lengt": 0.08115149704533446,
+  "blended": 0.06445311310653375
+ },
+ "spectral_radius": {
+  "K_activ/short on activ/lengt": 0.8757394937063985,
+  "K_activ/short on deact/short": 0.9546365297628003,
+  "K_activ/short on deact/lengt": 0.900510019148055,
+  "K_activ/short on blended": 0.8246886973126744,
+  "K_activ/lengt on activ/short": 0.8618977191010303,
+  "K_activ/lengt on deact/short": 0.9754119836122039,
+  "K_activ/lengt on deact/lengt": 0.9324696739077496,
+  "K_activ/lengt on blended": 0.8349414522594337,
+  "K_deact/short on activ/short": 0.8715918929968267,
+  "K_deact/short on activ/lengt": 0.9284383252154673,
+  "K_deact/short on deact/lengt": 0.9156482914120042,
+  "K_deact/short on blended": 0.8979031257955625,
+  "K_deact/lengt on activ/short": 0.8912533441143805,
+  "K_deact/lengt on activ/lengt": 0.8797474791702534,
+  "K_deact/lengt on deact/short": 0.9370625936476997,
+  "K_deact/lengt on blended": 0.8611017831789931,
+  "K_blended on activ/short": 0.8493763718269841,
+  "K_blended on activ/lengt": 0.8553791949245597,
+  "K_blended on deact/short": 0.9573895819124454,
+  "K_blended on deact/lengt": 0.9059069380977816
+ },
+ "certified": {
+  "K_activ/short on activ/lengt": false,
+  "K_activ/short on deact/short": false,
+  "K_activ/short on deact/lengt": false,
+  "K_activ/short on blended": false,
+  "K_activ/lengt on activ/short": true,
+  "K_activ/lengt on deact/short": false,
+  "K_activ/lengt on deact/lengt": false,
+  "K_activ/lengt on blended": false,
+  "K_deact/short on activ/short": false,
+  "K_deact/short on activ/lengt": false,
+  "K_deact/short on deact/lengt": false,
+  "K_deact/short on blended": false,
+  "K_deact/lengt on activ/short": false,
+  "K_deact/lengt on activ/lengt": false,
+  "K_deact/lengt on deact/short": false,
+  "K_deact/lengt on blended": false,
+  "K_blended on activ/short": false,
+  "K_blended on activ/lengt": false,
+  "K_blended on deact/short": false,
+  "K_blended on deact/lengt": false
+ },
+ "cqlf": {
+  "K_activ/short": 0.9990280605852604,
+  "K_activ/lengt": null,
+  "K_deact/short": 0.9284383254125714,
+  "K_deact/lengt": 0.9391821138560772,
+  "K_blended": 0.9872405454516411,
+  "sign test, correct classification (4 matched modes)": 0.9215204659849405,
+  "sign test, any misclassification (16 modes)": null
+ }
+}

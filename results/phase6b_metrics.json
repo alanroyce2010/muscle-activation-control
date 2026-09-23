@@ -1,0 +1,178 @@
+{
+ "fixed_naive": {
+  "overall": {
+   "rms_track_deg": 0.4775390839725196,
+   "peak_track_deg": 2.8878676725660206,
+   "rms_residual_deg": 0.0012224951946003025,
+   "peak_residual_deg": 0.005228527678102739,
+   "rms_u": 0.11124851235520658,
+   "saturated_steps": 0
+  },
+  "step_up": {
+   "rms_track_deg": 0.5665488560760044,
+   "peak_track_deg": 2.7605707432602187,
+   "rms_residual_deg": 0.0012662504782459522,
+   "settle_s": 0.10000000000000003,
+   "final_offset_deg": 0.0011914780989599194,
+   "overshoot_deg": 0.07178666503823194
+  },
+  "step_down": {
+   "rms_track_deg": 0.6927839433885183,
+   "peak_track_deg": 2.8878676725660206,
+   "rms_residual_deg": 0.0009922948819659123,
+   "settle_s": 0.20999999999999996,
+   "final_offset_deg": 0.002001220976168838,
+   "overshoot_deg": 0.0
+  },
+  "sinusoid": {
+   "rms_track_deg": 0.19982303672547747,
+   "peak_track_deg": 0.9905922273452109,
+   "rms_residual_deg": 0.001379991576445567
+  }
+ },
+ "blended": {
+  "overall": {
+   "rms_track_deg": 0.41133450316362424,
+   "peak_track_deg": 3.0868951147740034,
+   "rms_residual_deg": 0.0042681155166217535,
+   "peak_residual_deg": 0.032526610183168034,
+   "rms_u": 0.11054937090005573,
+   "saturated_steps": 0
+  },
+  "step_up": {
+   "rms_track_deg": 0.46624035619565507,
+   "peak_track_deg": 2.3789745146819445,
+   "rms_residual_deg": 0.006207340063619111,
+   "settle_s": 0.23000000000000004,
+   "final_offset_deg": 2.8185201124131254e-05,
+   "overshoot_deg": 0.6539495303396947
+  },
+  "step_down": {
+   "rms_track_deg": 0.592826513084283,
+   "peak_track_deg": 3.0868951147740034,
+   "rms_residual_deg": 0.004766817192834571,
+   "settle_s": 0.30000000000000004,
+   "final_offset_deg": 6.47603826280374e-05,
+   "overshoot_deg": 0.14538165292589156
+  },
+  "sinusoid": {
+   "rms_track_deg": 0.1958820027436002,
+   "peak_track_deg": 0.9521760524069873,
+   "rms_residual_deg": 0.002703373334910155
+  }
+ },
+ "tracking": {
+  "overall": {
+   "rms_track_deg": 0.46763198370024195,
+   "peak_track_deg": 3.9581042159556348,
+   "rms_residual_deg": 0.0056741342936136065,
+   "peak_residual_deg": 0.04347051148197312,
+   "rms_u": 0.11095634035420766,
+   "saturated_steps": 0
+  },
+  "step_up": {
+   "rms_track_deg": 0.7922073805210856,
+   "peak_track_deg": 3.9581042159556348,
+   "rms_residual_deg": 0.010550106640665751,
+   "settle_s": 0.10000000000000003,
+   "final_offset_deg": 9.387320973530677e-05,
+   "overshoot_deg": 0.08089438520958936
+  },
+  "step_down": {
+   "rms_track_deg": 0.4385785656197684,
+   "peak_track_deg": 1.8411318494604134,
+   "rms_residual_deg": 0.004773789481549376,
+   "settle_s": 0.1399999999999999,
+   "final_offset_deg": 0.00012129519029002722,
+   "overshoot_deg": 0.3739824523918571
+  },
+  "sinusoid": {
+   "rms_track_deg": 0.15273227949812906,
+   "peak_track_deg": 0.965591067490632,
+   "rms_residual_deg": 0.001432996533973831
+  },
+  "branch_counts": {
+   "activating/shortening": 28,
+   "activating/lengthening": 90,
+   "deactivating/shortening": 154,
+   "deactivating/lengthening": 158
+  }
+ },
+ "current_state": {
+  "overall": {
+   "rms_track_deg": 0.47516271573756946,
+   "peak_track_deg": 2.874965230339664,
+   "rms_residual_deg": 0.0007797786305364003,
+   "peak_residual_deg": 0.008792962843091329,
+   "rms_u": 0.11095508777151612,
+   "saturated_steps": 0
+  },
+  "step_up": {
+   "rms_track_deg": 0.6044862410040176,
+   "peak_track_deg": 2.808924704732063,
+   "rms_residual_deg": 0.001298037865620966,
+   "settle_s": 0.10000000000000003,
+   "final_offset_deg": 0.00010214420166221316,
+   "overshoot_deg": 0.07290137047344558
+  },
+  "step_down": {
+   "rms_track_deg": 0.6980259036324751,
+   "peak_track_deg": 2.874965230339664,
+   "rms_residual_deg": 0.0008184164657566961,
+   "settle_s": 0.1499999999999999,
+   "final_offset_deg": 0.0001532291948436182,
+   "overshoot_deg": 0.016013855107267716
+  },
+  "sinusoid": {
+   "rms_track_deg": 0.14892335292618009,
+   "peak_track_deg": 0.9634181541290388,
+   "rms_residual_deg": 0.00012887754117023192
+  },
+  "branch_counts": {
+   "activating/shortening": 47,
+   "activating/lengthening": 5,
+   "deactivating/shortening": 119,
+   "deactivating/lengthening": 259
+  }
+ },
+ "trajectory": {
+  "overall": {
+   "rms_track_deg": 0.46918860064496676,
+   "peak_track_deg": 3.9581157683535246,
+   "rms_residual_deg": 0.005692330038380126,
+   "peak_residual_deg": 0.04347035048406353,
+   "rms_u": 0.11096547500835216,
+   "saturated_steps": 0
+  },
+  "step_up": {
+   "rms_track_deg": 0.7930448132403295,
+   "peak_track_deg": 3.9581157683535246,
+   "rms_residual_deg": 0.010551590119936713,
+   "settle_s": 0.09000000000000002,
+   "final_offset_deg": 0.00013903107038260032,
+   "overshoot_deg": 0.14282786713088313
+  },
+  "step_down": {
+   "rms_track_deg": 0.44464009733053406,
+   "peak_track_deg": 1.8411317812612935,
+   "rms_residual_deg": 0.004866996714481589,
+   "settle_s": 0.15999999999999992,
+   "final_offset_deg": 0.00012279335176401673,
+   "overshoot_deg": 0.4468469299922333
+  },
+  "sinusoid": {
+   "rms_track_deg": 0.15226301753680174,
+   "peak_track_deg": 0.9655911354073952,
+   "rms_residual_deg": 0.0014259152709617132
+  },
+  "branch_counts": {
+   "activating/shortening": 20,
+   "activating/lengthening": 92,
+   "deactivating/shortening": 166,
+   "deactivating/lengthening": 152
+  },
+  "traj_iterations_mean": 2.2651162790697676,
+  "traj_iterations_max": 4,
+  "traj_fallbacks": 157
+ }
+}
